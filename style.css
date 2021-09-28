@@ -1,0 +1,332 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-color: rgb(12, 12, 12);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.6rem;
+  position: relative;
+  color: rgb(248, 248, 248);
+
+}
+
+/*==================== WHITE MODE BUTTON ====================*/
+.tema button {
+  background-color: rgb(0, 0, 0, 0);
+  border-radius: 100px;
+  color: rgb(248, 248, 248);
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  padding: 8px 16px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.tema button:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+/*==================== HEADER ====================*/
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header .logo-text {
+  position: relative;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 1px;
+  transition: 0.6s;
+  padding: 1px 10px;
+/*   background-color: rgba(255, 255, 255, 0.1); */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 150px;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.6s;
+  margin: 10px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px
+}
+header ul li a:hover {
+  background-color: rgb(48, 48, 48);
+  
+}
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: rgb(125, 125, 125);
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 500px;
+  position: absolute;
+  opacity: 0.02;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.foto-perfil {
+  max-width: 400px;
+  margin-left: 150px;
+  border: 1px solid rgba(248, 248, 248, 0.1);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  position: relative
+}
+
+.titulo {
+  margin-left: 64px;
+  line-height: 0.8;
+}
+
+.container {
+  margin: 64px;
+  border-radius: 10px;
+  background-color: rgb(17, 17, 17);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 20%);
+}
+.primeira {
+  background-color: rgb(17, 17, 17);
+  color: #F8F8F8;
+  margin: 64px;
+}
+
+.container2 {
+  background-color: rgb(20, 20, 20);
+/*   border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; */
+  padding: 64px;
+/*   height: 200px; */
+}
+.segunda {
+  background-color: rgb(20, 20, 20);
+  color: rgb(248, 248, 248);
+}
+
+.ultima-parte {
+  background-color: rgb(20, 20, 20);
+/*   padding: 64px; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+}
+.final {
+  margin: auto;
+/*   width: 50%; */
+  padding: 100px;
+  text-align: center;
+  background-color: #141414;
+  border-radius: 10px
+}
+
+.projetos {
+  margin: 0 auto;
+  padding: 10px 100px;
+}
+
+.projetos-titulo {
+  text-align: center;
+  padding: 0 0px
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  position: center;
+  padding: 10px 10px;
+  margin: 1.5%;
+  border: 1px solid #1c1c1c;
+  border-radius: 2px;
+  transition: 0.4s;
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20)
+}
+
+.card:hover {
+  background-color: rgba(0,0,0,0.3)
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+
+.disponivel {
+  margin-bottom: 2rem;
+  line-height: 4rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(125, 125, 125);
+}
+.button {
+  background-color: rgb(48, 48, 48);
+  border-radius: 100px;
+  color: rgb(248, 248, 248);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: .5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: rgba(48, 48, 48, 0.4);
+}
+
+.rodapé {
+  letter-spacing: 1.2px;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+/*==================== WHITE MODE ====================*/
+
+/*==================== HEADER ====================*/
+.white header {
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.white header .logo-text {
+  color: rgb(36, 36, 36);
+  background: rgb(215, 215, 215)
+}
+.white header ul li a {
+  color: rgb(36, 36, 36);
+}
+.white header ul li a:hover {
+  background-color: rgb(215, 215, 215)
+}
+
+.white {
+  background-color: rgb(248, 248, 248);
+  color: rgb(36, 36, 36);
+}
+
+.white h1 {
+  color: rgb(36, 36, 36);
+}
+
+.white .foto-perfil {
+  border: 1px solid rgb(215, 215, 215)
+}
+
+.white .container {
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+  border: none;
+}
+
+.white .container2 {
+  background-color: rgb(215, 215, 215);
+}
+
+.white .primeira {
+  background-color: rgb(235, 235, 235);
+}
+
+.white .segunda {
+  background-color: rgb(215, 215, 215);
+}
+
+.white .tema button {
+  background-color: rgb(235, 235, 235);
+  color: rgb(0, 0, 0);
+}
+
+.white .tema button:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.white .logo {
+   filter: invert(1);
+}
+
+.white .card {
+  background-color: rgb(215, 215, 215);
+  border: none;
+  transition: 0.4s;
+}
+
+.white .card:hover {
+  background-color: rgba(0,0,0,0.3)
+}
+
+.white .card-title {
+  color: rgb(35, 35, 35);
+}
+
+.white p {
+  color: rgb(36, 36, 36);
+}
+
+.white .final {
+  background-color: rgb(215, 215, 215);
+}
+
+.white .ultima-parte {
+  background-color: rgb(215, 215, 215);
+}
+
+.white .tema {
+/*     background: url("<i class="uil uil-sun"></i>") */
+}
